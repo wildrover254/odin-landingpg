@@ -65,14 +65,38 @@ img {
 #info-box {
     color: #1f2937;
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10%;
+}
+
+#info-box h2 {
+    font-size: 36px;
+    font-weight: 800;
 }
 
 #box-box {
+    align-self: stretch;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: 0% 25% 0% 25%;
+}
+
+.info {
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 5%;
+}
+
+.box-img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    height: 110px;
 }
 
 #quote-box {
